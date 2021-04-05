@@ -30,4 +30,7 @@ namespace SalesWebMvc.Models
         {
             return Sellers.Sum(seller => seller.TotalSales(initial, final));
         }
+
+        
+    }
 }

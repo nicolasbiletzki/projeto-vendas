@@ -8,5 +8,15 @@ namespace SalesWebMvc.Models
         public string Name { get; set; }
         public ICollection<Seller> Sellers { get; set; } = new List<Seller>();
 
+
+        public Department()
+        {
+        }
+
+        public Department(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
     }
 }

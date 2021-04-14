@@ -18,7 +18,6 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Testando a primeira controller e pagina Razor.";
             ViewData["Email"] = "nicolasbiletzki@gmail.com";
             ViewData["Git"] = "GitHub ";
 
@@ -27,7 +26,7 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact page.";
 
             return View();
         }
